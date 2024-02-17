@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!-- to mention html version , it is html version 5-->
+
+<html lang="en"> <!-- attributes - passing additional value to the opening tag -->
+
+<!--Elements - OpeningTag Content ClosingTag-->
+<!-- Void Elements - tags which don't have closing tags    eg. meta , img, input, br, hr, link -->
+
+<!--we can use css in 3 ways 1.Internal 2.External 3.Inline-->
+
+<head> <!-- we can use only 5 tags in the head tag 1. meta 2. style 3. link 4. title 5. script-->
+    
+    <meta charset="UTF-8"> <!-- current version of ASCII table UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Internal css-->
+    <style>  
+            h1, h2, h3, h4, h5, h6, p{
+            font-size: medium;
+            color: blueviolet;
+            background-color:bisque;
+        }
+    </style>
+    <link rel="stylesheet" href="day1.css">
+</head>
+<body>
+
+    <!--heading tags h1, h2, h3, h4, h5, h6-->
+    <h1>Html</h1>
+    <h2>Css</h2>
+    <hr>
+    <h3>javascript</h3>
+    <h4 style="color: black;">Database</h4>
+    <h5>React js</h5>
+    <br><br><br>
+    <h6>Microservices</h6>
+
+    <p> <!--paragraph tag - Eventhough we are giving improper spaces in the para it will ignore and give it as a proper space paragraph-->
+       
+        Lorem ipsum dolor sit             amet consectetur adipisicing elit. Accusantium magni 
+                         delectus eius, voluptatum dolorem iste.
+         Est consectetur ad perferendis magni et dolorem animi tempora sapiente totam? Temporibus sint deleniti eveniet?
+
+    </p>
+    
+    <pre> <!-- it will give the para as it is -->
+        Lorem ipsum dolor sit amet consectetur
+        
+        adipisicing elit. Labore, a nam ad optio cum tempora vitae, excepturi, 
+        
+        exercitationem placeat accusantium nemo. Voluptates libero itaque iure aliquid ullam aperiam suscipit quasi?
+    </pre>
+</body>
+</html>

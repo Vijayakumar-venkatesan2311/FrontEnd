@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="https://www.wwe.com/">
+        <label for="">Username</label>  <!--Inline tag-->
+        <input type="text" placeholder="username" required> <!--Inline block tag-->
+
+        <br><br><br>
+
+        <label for="">Password</label>
+        <input type="password" minlength="5" maxlength="10">
+
+        <br><br><br>
+
+        <label for="">Email ID</label>
+        <input type="email"placeholder="Enter your Email Id here">
+
+        <br><br><br>
+
+        <label for="">Phone no</label>
+        <input type="number">
+
+        <br><br><br>
+
+        <label for="">Language</label>
+        <input type="checkbox">English
+        <input type="checkbox">Tamil
+        <input type="checkbox">Malayalam
+        <input type="checkbox">Telugu
+ 
+        <br><br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="Set1">Male
+        <input type="radio" name="Set1">Female
+
+        <br><br><br>
+
+        <label for="">Country</label>
+        <select name=" " id="">
+        <option>Select any one</option>
+        <optgroup label="Group A"></optgroup>
+        <option value="">India</option>
+        <option value="">Australia</option>
+        <option value="">New Zealand</option>
+        <optgroup label="Group B"></optgroup>
+        <option value="">South Africa</option>
+        <option value="">England</option>
+        <option value="">Pakistan</option>
+        </select>
+
+        <br><br><br>
+
+        Date of Birth
+        <input type="date">
+        <input type="datetime">
+
+        <br><br><br>
+
+        Week
+        <input type="week">
+
+        <br><br><br>
+
+        File
+        <input type="file">
+
+        <br><br><br>
+
+        Range
+        <input type="range">
+        
+        <br><br><br>
+
+        Colour
+        <input type="color">
+
+        <br><br><br>
+
+        <input type="Submit">
+
+        
+
+        <br><br><br>
+
+        <label for="">Select your favourite game</label>
+        <input list="game">
+        <datalist id="game">
+            <option value="GTA"></option>
+            <option value="PUBG"></option>
+            <option value="MINIMILTIA"></option>
+            <option value="VICE CITY"></option>
+            <option value="FREEFIRE"></option>
+        </datalist>
+
+        <br><br><br><br>
+       
+    </form>
+
+
+
+        <button onclick="document.location='https://www.google.com'">Download</button>
+
+        <br><br><br>
+
+        <input type="button"  value="Create Account" onclick="document.location='https://www.wwe.com/shows/smackdown'">
+
+        <br><br><br>
+
+        <a href="dummy.txt" download="resume.txt"><button>Download My resume</button></a>
+</body>
+</html>
